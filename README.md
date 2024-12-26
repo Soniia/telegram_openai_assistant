@@ -35,11 +35,11 @@ cd telegram_openai_assistant
 
 Aquí es posible que necesites crear un entorno. En mi caso (mac) la versión de Python del sistema es diferente a la que necesita el proyecto. Para evitar problemas, crear primero el entorno:
 
-1. Create a virtual environment (macOS/Linux). Recomendable utilizar como nombre de entorno "env" porque el archivo .gitignore lo tiene configurado con ese nombre.
+1. Create a virtual environment (macOS/Linux). Recomendable utilizar como nombre de entorno "myenv" porque el archivo .gitignore lo tiene configurado con ese nombre.
    
 ```bash
-python3 -m venv env
-````
+python3 -m venv myenv
+```
 
 2. Activate the virtual environment (macOS/Linux):
 
