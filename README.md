@@ -22,7 +22,7 @@ You also need
 - An open ai API key : https://platform.openai.com/api-keys
 - A telegram token : use botfather directly from telegram to create your bot and get the telegram token
 
-## Clonar el repositorio
+## Clone the repository
 
 Clone the repository to your local machine:
 
@@ -31,11 +31,11 @@ git clone https://github.com/efelem/telegram_openai_assistant
 cd telegram_openai_assistant
 ```
 
-## Crear entorno. 
+## Create a virtual environment 
 
-Aquí es posible que necesites crear un entorno. En mi caso (mac) la versión de Python del sistema es diferente a la que necesita el proyecto. Para evitar problemas, crear primero el entorno:
+If you have problems related to pip or python versions, maybe your system needs a virtual environment.
 
-1. Create a virtual environment (macOS/Linux). Recomendable utilizar como nombre de entorno "myenv" porque el archivo .gitignore lo tiene configurado con ese nombre.
+1. Create a virtual environment (macOS/Linux). I have included "myenv/" on .gitignore file.
    
 ```bash
 python3 -m venv myenv
@@ -45,6 +45,12 @@ python3 -m venv myenv
 
 ```bash
 source myenv/bin/activate
+```
+
+## Update Telegram_bot version
+
+```bash
+pip install python-telegram-bot --upgrade
 ```
 
 ## Installation
