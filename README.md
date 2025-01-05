@@ -27,7 +27,7 @@ You also need
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/efelem/telegram_openai_assistant
+git clone https://github.com/Soniia/telegram_openai_assistant.git
 cd telegram_openai_assistant
 ```
 
