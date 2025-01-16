@@ -47,18 +47,18 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-## Update Telegram_bot version
-
-```bash
-pip install python-telegram-bot --upgrade
-```
-
 ## Installation
 
 Install the packages:
 
 ```bash
 pip install -e .
+```
+
+## Update Telegram_bot version
+
+```bash
+pip install python-telegram-bot --upgrade
 ```
 
 ## Configuration
