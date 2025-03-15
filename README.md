@@ -64,8 +64,9 @@ pip install python-telegram-bot --upgrade
 ## Configuration
 
 Creamos un archivo con las variables de entorno
-touch .env
+```touch .env
 nano .env
+```
 
 Almacenamos las variables de entorno, guardamos y salimos
 
