@@ -63,7 +63,13 @@ pip install python-telegram-bot --upgrade
 
 ## Configuration
 
-Create a `.env` file in the root directory and fill in your OpenAI and Telegram credentials:
+Creamos un archivo con las variables de entorno
+touch .env
+nano .env
+
+Almacenamos las variables de entorno, guardamos y salimos
+
+Content of `.env` file in the root directory and fill in your OpenAI and Telegram credentials:
 
 ```env
 ASSISTANT_ID=your-assistant-id
